@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Coder - Entrega2</title>
-    <script src="coder.js" defer></script>
+    <title>Tienda de Abarrotes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Póngame 100 Profe!!!!</h1>
+    <header>
+        <h1>Tienda de Abarrotes</h1>
+        <input type="text" id="buscar" placeholder="Buscar productos...">
+        <button id="verCarrito">Ver Carrito</button>
+    </header>
+
+    <main>
+        <div  id="oscurecerFondo" >
+        <div id="productos" class="productos-contenedor "></div>
+        </div>
+    </main>
+
+    <div id="carrito" class="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="listaCarrito"></ul>
+        <p id="totalCarrito"></p>
+        <button id="cerrarCarrito">Cerrar</button>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
