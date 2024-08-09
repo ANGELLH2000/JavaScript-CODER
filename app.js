@@ -32,7 +32,6 @@ const productos = [
     { "id": 30, "nombre": "Mortero y Maja", "name2": "Mortar and Pestle", "precio": 14.99, "descripcion": "Mortero y maja de mármol, 12cm de diámetro." }
 ];
 
-
 let accessKey = 's2-KYnpBHHPer-NHR5EtCEqQV5f1Vj7huYNBq7PY_lQ';
 let carrito = [];
 let urlsImg = [];
@@ -95,10 +94,10 @@ function mostrarCarrito() {
     const listaCarrito = document.getElementById('listaCarrito');
     const totalCarrito = document.getElementById('totalCarrito');
     const oscurecerFondo = document.getElementById('oscurecerFondo');
-    oscurecerFondo.className="oscurecer";
+    oscurecerFondo.className = "oscurecer";
     const productos = document.getElementsByClassName("producto");
     for (let index = 0; index < productos.length; index++) {
-        productos[index].classList.add("oscurecerProducto")   
+        productos[index].classList.add("oscurecerProducto")
     }
     listaCarrito.innerHTML = '';
     let total = 0;
@@ -117,10 +116,10 @@ function mostrarCarrito() {
 // Cerrar carrito
 function cerrarCarrito() {
     const oscurecerFondo = document.getElementById('oscurecerFondo');
-    oscurecerFondo.className="";
+    oscurecerFondo.className = "";
     const productos = document.getElementsByClassName("producto");
     for (let index = 0; index < productos.length; index++) {
-        productos[index].classList.remove("oscurecerProducto")   
+        productos[index].classList.remove("oscurecerProducto")
     }
     document.getElementById('carrito').classList.remove('carrito-visible');
 }
@@ -148,7 +147,7 @@ const getImagenes = (productos) => {
         fetch(urlApi)
             .then(res => res.json())
             .then(data => {
-                productos[index]["imagen"]=data.results[0].urls.regular
+                productos[index]["imagen"] = data.results[0].urls.regular
             })
             .catch(error => {
                 console.error('Error al obtener imágenes:', error);
@@ -158,13 +157,8 @@ const getImagenes = (productos) => {
 
 }
 
-
-
-// Como getImagenes es asíncrono, colocamos un retardo antes de mostrar urlsImg
 setTimeout(() => {
     console.log('Final array:', productos);
-    // Aquí puedes continuar con otras operaciones que dependan de urlsImg
-    //document.getElementById('image').src = urlsImg[0];
     cargarCarrito();
     mostrarProductos(productos);
 }, 1000);
