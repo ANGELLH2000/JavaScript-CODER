@@ -1,46 +1,46 @@
-// Lista de productos sin img
-const productos = [
-    { "id": 1, "nombre": "Taza de Café", "name2": "Coffee Mug", "precio": 5.99, "descripcion": "Taza de cerámica, 350ml." },
-    { "id": 2, "nombre": "Cuchillo de Cocina", "name2": "Kitchen Knife", "precio": 12.49, "descripcion": "Cuchillo de acero inoxidable, 20cm." },
-    { "id": 3, "nombre": "Sartén Antiadherente", "name2": "Non-stick Pan", "precio": 18.99, "descripcion": "Sartén antiadherente, 28cm de diámetro." },
-    { "id": 4, "nombre": "Tabla de Cortar", "name2": "Cutting Board", "precio": 7.49, "descripcion": "Tabla de cortar de bambú, 30x20cm." },
-    { "id": 5, "nombre": "Rallador de Queso", "name2": "Cheese Grater", "precio": 6.29, "descripcion": "Rallador de queso de acero inoxidable, 4 caras." },
-    { "id": 6, "nombre": "Báscula de Cocina", "name2": "Kitchen Scale", "precio": 15.99, "descripcion": "Báscula digital para cocina, capacidad de 5kg." },
-    { "id": 7, "nombre": "Set de Cubiertos", "name2": "Cutlery Set", "precio": 24.99, "descripcion": "Juego de cubiertos de acero inoxidable, 24 piezas." },
-    { "id": 8, "nombre": "Tostadora", "name2": "Toaster", "precio": 19.99, "descripcion": "Tostadora de pan con capacidad para 2 rebanadas." },
-    { "id": 9, "nombre": "Licuadora", "name2": "Blender", "precio": 29.99, "descripcion": "Licuadora de alta velocidad, 1.5L." },
-    { "id": 10, "nombre": "Plancha a Vapor", "name2": "Steam Iron", "precio": 22.49, "descripcion": "Plancha a vapor con control de temperatura ajustable." },
-    { "id": 11, "nombre": "Reloj de Pared", "name2": "Wall Clock", "precio": 15.99, "descripcion": "Reloj de pared decorativo, 30cm de diámetro." },
-    { "id": 12, "nombre": "Tijeras de Cocina", "name2": "Kitchen Scissors", "precio": 8.49, "descripcion": "Tijeras multifuncionales de acero inoxidable." },
-    { "id": 13, "nombre": "Set de Ollas", "name2": "Cookware Set", "precio": 49.99, "descripcion": "Juego de ollas de acero inoxidable, 5 piezas." },
-    { "id": 14, "nombre": "Organizador de Cocina", "name2": "Kitchen Organizer", "precio": 12.99, "descripcion": "Organizador de cocina de metal, 3 niveles." },
-    { "id": 15, "nombre": "Colador de Pasta", "name2": "Pasta Strainer", "precio": 10.99, "descripcion": "Colador de acero inoxidable, 25cm de diámetro." },
-    { "id": 16, "nombre": "Pelador de Vegetales", "name2": "Vegetable Peeler", "precio": 4.99, "descripcion": "Pelador de vegetales con hoja de acero inoxidable." },
-    { "id": 17, "nombre": "Jarra Medidora", "name2": "Measuring Jug", "precio": 7.99, "descripcion": "Jarra medidora de plástico, 1L." },
-    { "id": 18, "nombre": "Espátula de Silicona", "name2": "Silicone Spatula", "precio": 3.99, "descripcion": "Espátula de silicona resistente al calor." },
-    { "id": 19, "nombre": "Batidora de Mano", "name2": "Hand Mixer", "precio": 25.99, "descripcion": "Batidora de mano eléctrica, 5 velocidades." },
-    { "id": 20, "nombre": "Set de Refractarios", "name2": "Glass Containers Set", "precio": 34.99, "descripcion": "Juego de refractarios de vidrio, 3 piezas." },
-    { "id": 21, "nombre": "Cuchara Medidora", "name2": "Measuring Spoon", "precio": 5.49, "descripcion": "Juego de cucharas medidoras de acero inoxidable, 6 piezas." },
-    { "id": 22, "nombre": "Jarra para Agua", "name2": "Water Jug", "precio": 9.99, "descripcion": "Jarra para agua de vidrio, 1.5L." },
-    { "id": 23, "nombre": "Termo de Acero", "name2": "Steel Thermos", "precio": 19.49, "descripcion": "Termo de acero inoxidable, 1L." },
-    { "id": 24, "nombre": "Cafetera de Goteo", "name2": "Drip Coffee Maker", "precio": 29.99, "descripcion": "Cafetera de goteo, capacidad para 12 tazas." },
-    { "id": 25, "nombre": "Ensaladera", "name2": "Salad Bowl", "precio": 13.99, "descripcion": "Ensaladera de cerámica, 25cm de diámetro." },
-    { "id": 26, "nombre": "Descorchador", "name2": "Corkscrew", "precio": 6.99, "descripcion": "Descorchador de vino de acero inoxidable." },
-    { "id": 27, "nombre": "Batidor de Mano", "name2": "Whisk", "precio": 3.49, "descripcion": "Batidor de mano de acero inoxidable." },
-    { "id": 28, "nombre": "Rodillo de Madera", "name2": "Wooden Rolling Pin", "precio": 8.49, "descripcion": "Rodillo de madera para masa, 45cm de largo." },
-    { "id": 29, "nombre": "Tazón Mezclador", "name2": "Mixing Bowl", "precio": 12.49, "descripcion": "Tazón mezclador de acero inoxidable, 3L." },
-    { "id": 30, "nombre": "Mortero y Maja", "name2": "Mortar and Pestle", "precio": 14.99, "descripcion": "Mortero y maja de mármol, 12cm de diámetro." }
-];
+//Póngame un 20 profe!!!
 
-let accessKey = 's2-KYnpBHHPer-NHR5EtCEqQV5f1Vj7huYNBq7PY_lQ';
+let productos = [];
 let carrito = [];
 let urlsImg = [];
+fetch("./data.json")
+    .then(response => response.json())
+    .then(data => { iniciar(data) })
+    .catch(error => {
+        console.error('Error al obtener imágenes:', error);
+    });
+const iniciar = (data) => {
+    productos = data;
+    cargarCarrito();
+    mostrarProductos(productos);
+}
+
+function alerta(datos, tipo) {
+    //En un mundo ideal habría varios tipos, pero en este caso solo son 2 y quise usar un ternario para no complicar.
+    tipo ? bk = "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,52,52,1) 0%, rgba(255,124,24,1) 100%)" : bk = "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,240,106,1) 0%, rgba(188,255,24,1) 100%)";
+    Toastify({
+        text: datos,
+        className: "info",
+        style: {
+            color: "black",
+            background: bk,
+
+        }
+    }).showToast();
+
+}
+
+
+
+
 
 // Cargar carrito desde localStorage
 function cargarCarrito() {
     const carritoGuardado = localStorage.getItem('carrito');
     if (carritoGuardado) {
         carrito = JSON.parse(carritoGuardado);
+    } else {
+        carrito = []
     }
 }
 
@@ -48,6 +48,19 @@ function cargarCarrito() {
 function guardarCarrito() {
     localStorage.setItem('carrito', JSON.stringify(carrito));
 }
+// "Comprar todo el carrtip"  vaciar el carrito en localStorage
+function vaciarCarrito() {
+    if (carrito.length) {
+        localStorage.clear();
+        mostrarCarrito();
+        alerta("Gracias por tu compra.")
+    } else {
+        alerta("No hay productos agregados", "TipoMalo");
+        cerrarCarrito();
+    }
+
+}
+
 
 // Mostrar productos en la página
 function mostrarProductos(productos) {
@@ -86,11 +99,12 @@ function agregarAlCarrito(idProducto) {
     }
 
     guardarCarrito();
-    alert(`${producto.nombre} ha sido añadido al carrito.`);
+    alerta('"' + producto.nombre + '" se añadió al carrito');
 }
 
 // Mostrar carrito
 function mostrarCarrito() {
+    cargarCarrito();
     const listaCarrito = document.getElementById('listaCarrito');
     const totalCarrito = document.getElementById('totalCarrito');
     const oscurecerFondo = document.getElementById('oscurecerFondo');
@@ -134,14 +148,18 @@ function filtrarProductos() {
 // Eventos
 document.getElementById('verCarrito').addEventListener('click', mostrarCarrito);
 document.getElementById('cerrarCarrito').addEventListener('click', cerrarCarrito);
+document.getElementById('vaciarCarrito').addEventListener('click', vaciarCarrito);
 document.getElementById('buscar').addEventListener('input', filtrarProductos);
 
 // Cargar carrito y mostrar productos al cargar la página
 
-//Tarer imágenes con API de Unsplash
 
+/*
+
+//Traer imágenes con API de Unsplash
 
 const getImagenes = (productos) => {
+    let accessKey = 's2-KYnpBHHPer-NHR5EtCEqQV5f1Vj7huYNBq7PY_lQ';
     for (let index = 0; index < productos.length; index++) {
         let urlApi = `https://api.unsplash.com/search/photos?client_id=${accessKey}&page=1&query=${productos[index].name2}`
         fetch(urlApi)
@@ -155,15 +173,15 @@ const getImagenes = (productos) => {
 
     }
 
+    setTimeout(() => {
+        console.log(JSON.stringify(productos));
+    }, 1000);
+
 }
+*/
 
-setTimeout(() => {
-    console.log('Final array:', productos);
-    cargarCarrito();
-    mostrarProductos(productos);
-}, 1000);
 
-getImagenes(productos);
+
 
 
 

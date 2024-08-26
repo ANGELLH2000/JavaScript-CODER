@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "nombre": "Taza de Café",
+        "name2": "Coffee Mug",
+        "precio": 5.99,
+        "descripcion": "Taza de cerámica, 350ml.",
+        "imagen": "https://images.unsplash.com/photo-1468768649734-ddebcf0b0bc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxDb2ZmZWUlMjBNdWd8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 2,
+        "nombre": "Cuchillo de Cocina",
+        "name2": "Kitchen Knife",
+        "precio": 12.49,
+        "descripcion": "Cuchillo de acero inoxidable, 20cm.",
+        "imagen": "https://images.unsplash.com/photo-1623947851502-49082c0d8ab8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxLaXRjaGVuJTIwS25pZmV8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 3,
+        "nombre": "Sartén Antiadherente",
+        "name2": "Non-stick Pan",
+        "precio": 18.99,
+        "descripcion": "Sartén antiadherente, 28cm de diámetro.",
+        "imagen": "https://images.unsplash.com/photo-1688398846460-baab8638e30a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxOb24tc3RpY2slMjBQYW58ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 4,
+        "nombre": "Tabla de Cortar",
+        "name2": "Cutting Board",
+        "precio": 7.49,
+        "descripcion": "Tabla de cortar de bambú, 30x20cm.",
+        "imagen": "https://images.unsplash.com/photo-1522774354045-e5db7fca06cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxDdXR0aW5nJTIwQm9hcmR8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 5,
+        "nombre": "Rallador de Queso",
+        "name2": "Cheese Grater",
+        "precio": 6.29,
+        "descripcion": "Rallador de queso de acero inoxidable, 4 caras.",
+        "imagen": "https://images.unsplash.com/photo-1592178036182-5400889dfc74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxDaGVlc2UlMjBHcmF0ZXJ8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 6,
+        "nombre": "Báscula de Cocina",
+        "name2": "Kitchen Scale",
+        "precio": 15.99,
+        "descripcion": "Báscula digital para cocina, capacidad de 5kg.",
+        "imagen": "https://images.unsplash.com/photo-1698930611790-67bb1522f178?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxLaXRjaGVuJTIwU2NhbGV8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 7,
+        "nombre": "Set de Cubiertos",
+        "name2": "Cutlery Set",
+        "precio": 24.99,
+        "descripcion": "Juego de cubiertos de acero inoxidable, 24 piezas.",
+        "imagen": "https://images.unsplash.com/photo-1706028212203-a2be8979f964?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxDdXRsZXJ5JTIwU2V0fGVufDB8fHx8MTcyNDYyNDYyMnww&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 8,
+        "nombre": "Tostadora",
+        "name2": "Toaster",
+        "precio": 19.99,
+        "descripcion": "Tostadora de pan con capacidad para 2 rebanadas.",
+        "imagen": "https://images.unsplash.com/photo-1592771583287-71f7b4df0d40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxUb2FzdGVyfGVufDB8fHx8MTcyNDYyNDYyMnww&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 9,
+        "nombre": "Licuadora",
+        "name2": "Blender",
+        "precio": 29.99,
+        "descripcion": "Licuadora de alta velocidad, 1.5L.",
+        "imagen": "https://images.unsplash.com/photo-1634314672332-cc317dbd5772?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxCbGVuZGVyfGVufDB8fHx8MTcyNDYyNDYyMnww&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 10,
+        "nombre": "Plancha a Vapor",
+        "name2": "Steam Iron",
+        "precio": 22.49,
+        "descripcion": "Plancha a vapor con control de temperatura ajustable.",
+        "imagen": "https://images.unsplash.com/photo-1663336234696-6220be33c122?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxTdGVhbSUyMElyb258ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 11,
+        "nombre": "Reloj de Pared",
+        "name2": "Wall Clock",
+        "precio": 15.99,
+        "descripcion": "Reloj de pared decorativo, 30cm de diámetro.",
+        "imagen": "https://images.unsplash.com/photo-1477925650445-9dc5d0aa1595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxXYWxsJTIwQ2xvY2t8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 12,
+        "nombre": "Tijeras de Cocina",
+        "name2": "Kitchen Scissors",
+        "precio": 8.49,
+        "descripcion": "Tijeras multifuncionales de acero inoxidable.",
+        "imagen": "https://images.unsplash.com/photo-1573810655264-8d1e50f1592d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxLaXRjaGVuJTIwU2Npc3NvcnN8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 13,
+        "nombre": "Set de Ollas",
+        "name2": "Cookware Set",
+        "precio": 49.99,
+        "descripcion": "Juego de ollas de acero inoxidable, 5 piezas.",
+        "imagen": "https://images.unsplash.com/photo-1584990347955-2ec0431a6e8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxDb29rd2FyZSUyMFNldHxlbnwwfHx8fDE3MjQ2MjQ2MjJ8MA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 14,
+        "nombre": "Organizador de Cocina",
+        "name2": "Kitchen Organizer",
+        "precio": 12.99,
+        "descripcion": "Organizador de cocina de metal, 3 niveles.",
+        "imagen": "https://images.unsplash.com/photo-1676907228185-6869277a9f8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxLaXRjaGVuJTIwT3JnYW5pemVyfGVufDB8fHx8MTcyNDYyNDYyMnww&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 15,
+        "nombre": "Colador de Pasta",
+        "name2": "Pasta Strainer",
+        "precio": 10.99,
+        "descripcion": "Colador de acero inoxidable, 25cm de diámetro.",
+        "imagen": "https://images.unsplash.com/photo-1514627670085-17253b8172f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxQYXN0YSUyMFN0cmFpbmVyfGVufDB8fHx8MTcyNDYyNDYyMnww&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 16,
+        "nombre": "Pelador de Vegetales",
+        "name2": "Vegetable Peeler",
+        "precio": 4.99,
+        "descripcion": "Pelador de vegetales con hoja de acero inoxidable.",
+        "imagen": "https://images.unsplash.com/photo-1549716679-efce92a6bd12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxWZWdldGFibGUlMjBQZWVsZXJ8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 17,
+        "nombre": "Jarra Medidora",
+        "name2": "Measuring Jug",
+        "precio": 7.99,
+        "descripcion": "Jarra medidora de plástico, 1L.",
+        "imagen": "https://images.unsplash.com/photo-1719244394388-1ec3fc0de69c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxNZWFzdXJpbmclMjBKdWd8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 18,
+        "nombre": "Espátula de Silicona",
+        "name2": "Silicone Spatula",
+        "precio": 3.99,
+        "descripcion": "Espátula de silicona resistente al calor.",
+        "imagen": "https://images.unsplash.com/photo-1624715082216-7eef9c03ec19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxTaWxpY29uZSUyMFNwYXR1bGF8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 19,
+        "nombre": "Batidora de Mano",
+        "name2": "Hand Mixer",
+        "precio": 25.99,
+        "descripcion": "Batidora de mano eléctrica, 5 velocidades.",
+        "imagen": "https://images.unsplash.com/photo-1589985270319-40629f6ae936?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxIYW5kJTIwTWl4ZXJ8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 20,
+        "nombre": "Set de Refractarios",
+        "name2": "Glass Containers Set",
+        "precio": 34.99,
+        "descripcion": "Juego de refractarios de vidrio, 3 piezas.",
+        "imagen": "https://images.unsplash.com/photo-1531506527841-6befe8901440?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxHbGFzcyUyMENvbnRhaW5lcnMlMjBTZXR8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 21,
+        "nombre": "Cuchara Medidora",
+        "name2": "Measuring Spoon",
+        "precio": 5.49,
+        "descripcion": "Juego de cucharas medidoras de acero inoxidable, 6 piezas.",
+        "imagen": "https://images.unsplash.com/photo-1591981131825-751212cf8327?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxNZWFzdXJpbmclMjBTcG9vbnxlbnwwfHx8fDE3MjQ2MjQ2MjJ8MA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 22,
+        "nombre": "Jarra para Agua",
+        "name2": "Water Jug",
+        "precio": 9.99,
+        "descripcion": "Jarra para agua de vidrio, 1.5L.",
+        "imagen": "https://images.unsplash.com/photo-1534596292079-6ab51b3b0507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxXYXRlciUyMEp1Z3xlbnwwfHx8fDE3MjQ2MjQ2MjJ8MA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 23,
+        "nombre": "Termo de Acero",
+        "name2": "Steel Thermos",
+        "precio": 19.49,
+        "descripcion": "Termo de acero inoxidable, 1L.",
+        "imagen": "https://images.unsplash.com/photo-1591345299642-13726d9c80c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxTdGVlbCUyMFRoZXJtb3N8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 24,
+        "nombre": "Cafetera de Goteo",
+        "name2": "Drip Coffee Maker",
+        "precio": 29.99,
+        "descripcion": "Cafetera de goteo, capacidad para 12 tazas.",
+        "imagen": "https://images.unsplash.com/photo-1517467139951-f5a925c9f9de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxEcmlwJTIwQ29mZmVlJTIwTWFrZXJ8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 25,
+        "nombre": "Ensaladera",
+        "name2": "Salad Bowl",
+        "precio": 13.99,
+        "descripcion": "Ensaladera de cerámica, 25cm de diámetro.",
+        "imagen": "https://images.unsplash.com/photo-1634812165658-b2cafc6e1f04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxTYWxhZCUyMEJvd2x8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 26,
+        "nombre": "Descorchador",
+        "name2": "Corkscrew",
+        "precio": 6.99,
+        "descripcion": "Descorchador de vino de acero inoxidable.",
+        "imagen": "https://images.unsplash.com/photo-1719761601551-2a87a6a08639?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxDb3Jrc2NyZXd8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 27,
+        "nombre": "Batidor de Mano",
+        "name2": "Whisk",
+        "precio": 3.49,
+        "descripcion": "Batidor de mano de acero inoxidable.",
+        "imagen": "https://images.unsplash.com/photo-1597528662465-55ece5734101?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxXaGlza3xlbnwwfHx8fDE3MjQ2MjQ2MjJ8MA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 28,
+        "nombre": "Rodillo de Madera",
+        "name2": "Wooden Rolling Pin",
+        "precio": 8.49,
+        "descripcion": "Rodillo de madera para masa, 45cm de largo.",
+        "imagen": "https://images.unsplash.com/photo-1626202380338-2369f39e30d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxXb29kZW4lMjBSb2xsaW5nJTIwUGlufGVufDB8fHx8MTcyNDYyNDYyMnww&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 29,
+        "nombre": "Tazón Mezclador",
+        "name2": "Mixing Bowl",
+        "precio": 12.49,
+        "descripcion": "Tazón mezclador de acero inoxidable, 3L.",
+        "imagen": "https://images.unsplash.com/photo-1608019526927-c4ea27a542a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxNaXhpbmclMjBCb3dsfGVufDB8fHx8MTcyNDYyNDYyMnww&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 30,
+        "nombre": "Mortero y Maja",
+        "name2": "Mortar and Pestle",
+        "precio": 14.99,
+        "descripcion": "Mortero y maja de mármol, 12cm de diámetro.",
+        "imagen": "https://images.unsplash.com/photo-1492552296703-4ec0a2fb3715?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDE3NDR8MHwxfHNlYXJjaHwxfHxNb3J0YXIlMjBhbmQlMjBQZXN0bGV8ZW58MHx8fHwxNzI0NjI0NjIyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    }
+]

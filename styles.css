@@ -124,7 +124,7 @@ header button:hover {
     font-size: 1.2em;
 }
 
-.carrito button {
+#cerrarCarrito {
     background-color: #f44336;
     color: white;
     border: none;
@@ -136,8 +136,23 @@ header button:hover {
     width: 100%;
 }
 
-.carrito button:hover {
+#cerrarCarrito:hover {
     background-color: #e53935;
+}
+#vaciarCarrito {
+    background-color: #45a049;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#vaciarCarrito:hover {
+    background-color: #219e27;
 }
 .oscurecer{
     width: 100%;
